@@ -23,9 +23,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata = {
-  title: "Lịch sử Đảng Cộng sản Việt Nam",
+  title: "Chủ Nghĩa Mác - Lênin",
   description:
-    "SỰ LÃNH ĐẠO SÁNG TẠO CỦA ĐẢNG CỘNG SẢN VIỆT NAM TRONG CUỘC KHÁNG CHIẾN CHỐNG ĐẾ QUỐC MỸ XÂM LƯỢC (1954–1975)",
+    "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
 };
 
 export default function RootLayout({ children }) {
