@@ -94,7 +94,7 @@ export default function Dashboard() {
     {
       title: "Trắc Nghiệm",
       description: "Ôn tập kiến thức",
-      link: "https://play.blooket.com/play",
+      link: "https://play.blooket.com/play?id=942754",
       icon: "EditOutlined",
       color: "jade-green",
     },
