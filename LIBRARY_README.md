@@ -1,41 +1,32 @@
-# Thư viện Lịch sử Đảng Cộng sản Việt Nam
+## Mục tiêu
+Website thư viện học thuật về Lịch sử Đảng Cộng sản Việt Nam giai đoạn 1954-1975. Giao diện hiện đại, tối giản, giữ bản sắc văn hóa Việt Nam, nhấn mạnh hình ảnh và nội dung lịch sử.
 
-## Tổng quan
+## Tổng quan kiến trúc
+Dự án chia theo component, mỗi component có CSS riêng. Layout có thêm khu vực hình ảnh minh họa với mosaic shape bất quy tắc, tạo cảm giác hoài cổ và giàu tính kể chuyện.
 
-Trang web thư viện học thuật về Lịch sử Đảng Cộng sản Việt Nam giai đoạn 1954-1975, được thiết kế với giao diện hiện đại, tối giản, thấm đượm bản sắc văn hóa Việt Nam.
+### Khu vực hình ảnh minh họa
+**ImageMosaicSection** (`ImageMosaicSection.js`, `ImageMosaicSection.css`)
 
-## Cấu trúc Component
+- Mosaic nhiều hình dạng (circle, square, landscape, portrait)
+- Overlay caption, đan xen nội dung và hình ảnh
+- Dễ mở rộng từ `content/content.txt`
 
-Dự án được chia thành các component tối ưu, mỗi component có file CSS riêng. Đặc biệt, layout mới có thêm section hình ảnh minh họa lịch sử với mosaic shape bất quy tắc, vibe hoài cổ:
+Các section nội dung (Foundation, Strategy, North, South, Victory, Orientation) tích hợp ảnh chính kèm caption, dùng tooltip để dẫn vào nội dung chi tiết.
 
-### 📂 src/component/layout/library/
-
-#### **ImageMosaicSection** (ImageMosaicSection.js + ImageMosaicSection.css)
-
-- Mosaic hình ảnh lịch sử, nhiều shape (circle, square, landscape, portrait)
-- Overlay caption và nội dung minh họa, đan xen với các section nội dung
-- Vibe hoài cổ, layout bất quy tắc, giảm emoji, tăng tính minh họa
-- Dễ mở rộng thêm ảnh và nội dung từ `content/content.txt`
-
-Các component nội dung (FoundationSection, StrategySection, NorthSection, SouthSection, VictorySection, OrientationSection) đã được tích hợp hình ảnh chính với caption làm trung tâm, dẫn dắt vào nội dung chi tiết qua tooltip. Layout mới tập trung vào visual và đề mục, tăng tính tương tác và dễ đọc.
-
-## Công nghệ sử dụng
+## Công nghệ
 
 ### Framework & Libraries
-
-- **Next.js** - React framework
-- **Ant Design** - UI component library
-- **Lucide React** - Icon library
-- **Google Fonts** - Fraunces (font chính)
+- **Next.js**
+- **Ant Design**
+- **Lucide React**
+- **Google Fonts**: Fraunces
 
 ### Styling
+- **CSS Modules**
+- **CSS Variables**
+- **Flexbox & Grid**
 
-- **CSS Modules** - Component-scoped CSS
-- **CSS Variables** - Màu sắc theme
-- **Flexbox & Grid** - Layout responsive
-
-## Màu sắc chủ đạo
-
+## Bảng màu
 ```css
 --red-primary: #BF092F      /* Đỏ Quốc kỳ */
 --red-secondary: #DC2626    /* Đỏ Đảng */
@@ -47,73 +38,65 @@ Các component nội dung (FoundationSection, StrategySection, NorthSection, Sou
 --text-brown: #8B4513       /* Nâu gỗ */
 ```
 
-## Cài đặt và Chạy
+## Cài đặt & Chạy
 
-### 1. Cài đặt dependencies
-
+### 1) Cài dependencies
 ```bash
 npm install
 # hoặc
 yarn install
 ```
 
-### 2. Chạy development server
-
+### 2) Chạy dev server
 ```bash
 npm run dev
 # hoặc
 yarn dev
 ```
 
-### 3. Truy cập trang
-
-Mở trình duyệt và truy cập: `http://localhost:3000/library`
+### 3) Truy cập
+`http://localhost:3000/library`
 
 ## Tính năng chính
 
-### ✨ UI/UX
+### UI/UX
+- Giao diện tối giản, sang trọng
+- Màu sắc đỏ-vàng theo Quốc kỳ VN
+- Font Fraunces
+- Icons từ Lucide React
+- Bo góc tối đa 8px
+- Shadow tối thiểu
 
-- [x] Giao diện tối giản, sang trọng
-- [x] Màu sắc Quốc kỳ VN (đỏ-vàng)
-- [x] Font Fraunces (Google Fonts)
-- [x] Icons từ Lucide React
-- [x] Bo góc tối đa 8px
-- [x] Shadow tối thiểu
+### Components
+- Header sticky với menu
+- Hero với quote rotator
+- Timeline interactive
+- Dual-column layout với tabs
+- Image gallery nhiều shape
+- Analysis cards
+- Lessons collapse
+- Orientation cards với CTA
+- Footer có pattern
 
-### 🎨 Components
+### Responsive
+- Desktop (>992px)
+- Tablet (768px-991px)
+- Mobile (<768px)
 
-- [x] Header sticky với menu
-- [x] Hero với quote rotator
-- [x] Timeline interactive
-- [x] Dual-column layout với tabs
-- [x] Image gallery với shapes đa dạng
-- [x] Analysis cards
-- [x] Lessons collapse
-- [x] Orientation cards với CTA
-- [x] Footer với pattern
+### Accessibility
+- Semantic HTML5
+- ARIA labels
+- Keyboard navigation
+- Focus visible
+- Alt text cho images
 
-### 📱 Responsive
-
-- [x] Desktop (>992px)
-- [x] Tablet (768px-991px)
-- [x] Mobile (<768px)
-
-### ♿ Accessibility
-
-- [x] Semantic HTML5
-- [x] ARIA labels
-- [x] Keyboard navigation
-- [x] Focus visible
-- [x] Alt text cho images
-
-## Cấu trúc File
-
+## Cấu trúc thư mục
 ```
 src/
 ├── app/
 │   └── library/
-│       ├── page.js          # Main page component
-│       └── page.css         # Global styles
+│       ├── page.js
+│       └── page.css
 └── component/
     └── layout/
         └── page1/
@@ -137,75 +120,61 @@ src/
             └── LibraryFooter.css
 ```
 
-## Tùy chỉnh
+## Tùy chỉnh nội dung
 
-### Thay đổi hình ảnh
+### Hình ảnh
+- `ImageMosaicSection.js`: thay/ thêm ảnh mosaic và caption
+- `LibraryTimeline.js`, `ImageGallery.js`, `LibraryHero.js`: thay ảnh theo nội dung lịch sử
 
-Các section hình ảnh minh họa lịch sử (`ImageMosaicSection`) sử dụng các hình ảnh tiêu biểu, có thể thay thế bằng ảnh thực tế hoặc bổ sung thêm ảnh mới trong file `ImageMosaicSection.js`.
+### Dữ liệu nội dung
+Nội dung lấy từ `content/content.txt` và có thể mở rộng vào các section hình ảnh:
+- Timeline data: `LibraryTimeline.js`
+- North/South tabs: `DualTaskSection.js`
+- Analysis cards: `AnalysisSection.js`
+- Lessons: `LessonsSection.js`
+- Orientation cards: `OrientationSection.js`
+- Mosaic captions: `ImageMosaicSection.js`
 
-Các file khác như `LibraryTimeline.js`, `ImageGallery.js`, `LibraryHero.js` cũng có thể thay đổi hình ảnh để phù hợp nội dung lịch sử.
-
-### Thay đổi nội dung
-
-Nội dung được lấy từ `content/content.txt` và có thể mở rộng vào các section hình ảnh minh họa (`ImageMosaicSection`) để tăng tính trực quan, sinh động cho thư viện lịch sử. Chỉnh sửa trực tiếp trong các component:
-
-- Timeline data in `LibraryTimeline.js`
-- North/South tabs in `DualTaskSection.js`
-- Analysis cards in `AnalysisSection.js`
-- Lessons in `LessonsSection.js`
-- Orientation cards in `OrientationSection.js`
-- Mosaic images/captions in `ImageMosaicSection.js`
-
-### Thay đổi màu sắc
-
-Chỉnh sửa CSS variables trong `page.css`:
-
+### Màu sắc
+Chỉnh CSS variables trong `page.css`:
 ```css
 :root {
   --red-primary: #bf092f;
   --yellow-star: #ffc400;
-  /* ... */
 }
 ```
 
 ## Tối ưu hóa
 
 ### Performance
-
 - Lazy load images
 - Code splitting
-- Minimize CSS
+- Minify CSS
 - Optimize fonts
 
 ### SEO
-
 - Meta tags trong `page.js`
 - Semantic HTML
 - Alt text cho images
 - Schema.org markup (tùy chọn)
 
-## Lưu ý quan trọng
-
-1. **Font Fraunces** - Font toàn cục bắt buộc
-2. **Icons** - Ưu tiên Lucide React thay vì emoji
-3. **CSS riêng** - Mỗi component có file CSS riêng
-4. **Component tối ưu** - Thiết kế modular, dễ bảo trì
-5. **Responsive** - Đảm bảo hiển thị tốt trên mọi thiết bị
+## Lưu ý
+1. **Fraunces** là font toàn cục bắt buộc
+2. Ưu tiên **Lucide React** thay vì emoji
+3. Mỗi component có CSS riêng
+4. Thiết kế modular, dễ bảo trì
+5. Responsive đầy đủ
 
 ## Hỗ trợ
-
-Nếu có vấn đề, vui lòng kiểm tra:
-
-1. Dependencies đã cài đặt đầy đủ
+Nếu gặp lỗi, kiểm tra:
+1. Dependencies đã cài đủ
 2. Next.js version tương thích
-3. Ant Design đã import đúng
-4. CSS modules hoạt động
+3. Ant Design import đúng
+4. CSS Modules hoạt động
 
 ## License
-
 Educational purpose - FPT University
 
 ## Tác giả
-
 Nhóm 5 - VNR202 - SE1737
 Trường Đại học FPT
