@@ -240,7 +240,7 @@ export default function TestAI() {
               }}
             >
               <RobotOutlined style={{ marginRight: 8 }} />
-              Trợ lý AI - Lịch sử Đảng Cộng sản Việt Nam
+              Trợ lý AI - Giải đáp thắc mắc
             </Title>
           </div>
         </div>
@@ -322,13 +322,10 @@ export default function TestAI() {
                 // Welcome Screen
                 <div className="welcome-screen">
                   <div className="welcome-title">
-                    Sự Lãnh đạo của Đảng Cộng sản Việt Nam (1954-1975)
+                    Thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam
                   </div>
                   <div className="welcome-subtitle">
-                    Trợ lý AI chuyên về lịch sử Đảng trong cuộc kháng chiến
-                    chống đế quốc Mỹ xâm lược. Hãy bắt đầu cuộc trò chuyện bằng
-                    cách chọn một chủ đề dưới đây hoặc đặt câu hỏi của riêng
-                    bạn.
+                    Trợ lý AI chuyên giải đáp thắc mắc về nội dung môn học Mác - Lênin
                   </div>
 
                   <div className="suggested-prompts">

@@ -11,32 +11,27 @@ import "./ChatbotPopup.css";
 
 const suggestedPrompts = [
   {
-    title: "Hiệp định Giơnevơ và Bối cảnh 1954",
-    text: "Phân tích tác động của Hiệp định Giơnevơ (7/1954) đến việc hình thành đường lối chiến lược của Đảng",
+    title: "Dân tộc là gì ?",
+    text: "Hãy nêu khái niệm của dân tộc theo kiến thức của hệ thống tư tưởng Mác - Lênin",
   },
   {
-    title: "Đại hội III và Hai Nhiệm vụ Chiến lược",
-    text: "Giải thích tính độc lập, tự chủ của Đảng khi đề ra đường lối hai nhiệm vụ chiến lược tại Đại hội III (9/1960)",
+    title: "Đặc điểm của dân tộc",
+    text: "Hãy nêu đặc trưng của dân tộc theo kiến thức của hệ thống tư tưởng Mác - Lênin",
   },
   {
-    title: "Nghị quyết 15 và Con đường Bạo lực Cách mạng",
-    text: "Phân tích tầm quan trọng của Nghị quyết 15 (1/1959) trong việc chuyển hướng cách mạng miền Nam",
-  },
-  {
-    title: "Phong trào Đồng Khởi 1960",
-    text: "Đánh giá ý nghĩa lịch sử của phong trào Đồng Khởi bắt đầu từ Bến Tre và lan rộng ra cả nước",
+    title: "Tôn giáo bắt nguồn từ đâu ?",
+    text: "Theo chủ nghĩa Mác - Lênin, tôn giáo có mấy nguồn gốc ? Hãy chỉ ra các nguồn gốc đó.",
   },
 ];
 
 const suggestionTags = [
-  "Hiệp định Giơnevơ 1954",
-  "Đại hội III và Hai nhiệm vụ",
-  "Nghị quyết 15",
-  "Phong trào Đồng Khởi 1960",
-  "Miền Bắc - Hậu phương",
-  "Đường Hồ Chí Minh",
-  "Mùa Xuân 1975",
-  "Thống nhất đất nước",
+  "Dân tộc Phương Tây",
+  "Dân tộc Phương Đông",
+  "Tôn giáo ở Việt Nam",
+  "Tính chất của tôn giáo",
+  "Các vấn đề dân tộc",
+  "Vấn đề dân tộc ở Việt Nam",
+  "Chính sách tôn giáo của Đảng",
 ];
 
 export default function ChatbotPopup({ onClose, buttonPosition }) {
@@ -177,7 +172,7 @@ export default function ChatbotPopup({ onClose, buttonPosition }) {
         <div className="chatbot-header">
           <div className="chatbot-title">
             <RobotOutlined style={{ marginRight: 8, fontSize: "18px" }} />
-            <span>Trợ lý AI - Lịch sử Đảng CSVN</span>
+            <span>Trợ lý AI - Giải đáp thắc mắc</span>
           </div>
           <Button
             type="text"
@@ -230,7 +225,7 @@ export default function ChatbotPopup({ onClose, buttonPosition }) {
           {messages.length === 0 ? (
             <div className="welcome-section">
               <div className="welcome-title">
-                Sự Lãnh đạo của Đảng CSVN (1954-1975)
+                Thời kỳ quá độ lên chủ nghĩa xã hội
               </div>
               <div className="welcome-subtitle">
                 Chọn một chủ đề hoặc đặt câu hỏi của bạn

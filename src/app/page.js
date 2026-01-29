@@ -100,7 +100,7 @@ export default function Dashboard() {
     },
     {
       title: "Báo cáo AI Usage",
-      description: "Trò chuyện với AI về lịch sử Việt Nam",
+      description: "Thảo luận nội dung bài học cùng AI",
       link: "/ai-usage",
       icon: "RobotOutlined",
       color: "lacquer-gold",

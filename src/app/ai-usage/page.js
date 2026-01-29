@@ -18,9 +18,9 @@ export default function AIUsagePage() {
         <section className="section-header">
           <h1 className="section-title">BÁO CÁO SỬ DỤNG AI</h1>
           <div className="project-info">
-            <p>Dự án: Lịch sử Đảng Cộng sản Việt Nam</p>
-            <p>VNR202 - Nhóm 5 - Half_2 SE1737</p>
-            <p className="meta">Ngày: 01/11/2025</p>
+            <p>Dự án: Sản phẩm sáng tạo - MLN131</p>
+            <p>Nhóm 7 - Half1_SE1842</p>
+            <p className="meta">Ngày: 30/01/2026</p>
           </div>
         </section>
 
@@ -37,15 +37,14 @@ export default function AIUsagePage() {
                 target="_blank"
                 rel="noreferrer"
               >
-                codecuatienne.github.io/assignment-vnr202
+                https://github.com/Buicongbang04/MLN131
               </a>
             </p>
             <p>
               <strong>Công nghệ:</strong> Website xây dựng bằng Next.js
             </p>
             <p>
-              <strong>Chủ đề:</strong> Lịch sử Đảng Cộng sản Việt Nam trong
-              Kháng chiến Chống Mỹ
+              <strong>Chủ đề:</strong> Chương 6 - Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội
             </p>
           </div>
         </section>
@@ -63,7 +62,7 @@ export default function AIUsagePage() {
             <thead>
               <tr>
                 <th style={{ width: "80px", textAlign: "center" }}>Logo</th>
-                <th style={{ width: "180px" }}>Công cụ AI</th>
+                <th style={{ width: "180px" }}>Công cụ/AI</th>
                 <th>Công việc hỗ trợ</th>
               </tr>
             </thead>
@@ -78,8 +77,7 @@ export default function AIUsagePage() {
                 </td>
                 <td className="tool-name">Google Gemini</td>
                 <td>
-                  <strong>Chatbox trên website:</strong> Trả lời câu hỏi người
-                  dùng về lịch sử Đảng
+                  <strong>Chatbox trên website:</strong> Trả lời các câu hỏi của người dùng trong nội dung liên quan về chương 6 (nội dung thuyết trình)
                 </td>
               </tr>
               <tr>
@@ -93,7 +91,7 @@ export default function AIUsagePage() {
                 <td className="tool-name">NotebookLM</td>
                 <td>
                   <strong>Tổ chức tài liệu:</strong> Phân tích và tổng hợp thông
-                  tin lịch sử từ nhiều nguồn
+                  tin từ nhiều nguồn
                 </td>
               </tr>
             </tbody>
@@ -106,7 +104,7 @@ export default function AIUsagePage() {
             <thead>
               <tr>
                 <th style={{ width: "80px", textAlign: "center" }}>Logo</th>
-                <th style={{ width: "180px" }}>Công cụ AI</th>
+                <th style={{ width: "180px" }}>Công cụ/AI</th>
                 <th>Công việc hỗ trợ</th>
               </tr>
             </thead>
@@ -182,7 +180,7 @@ export default function AIUsagePage() {
             <h3 className="step-title">Bước 1: Nghiên cứu Tài liệu</h3>
             <p>
               Sử dụng <strong>NotebookLM</strong> để tổ chức và phân tích tài
-              liệu lịch sử Đảng từ nhiều nguồn. Nhóm kiểm tra và xác minh độ
+              liệu môn học. Nhóm kiểm tra và xác minh độ
               chính xác của thông tin.
             </p>
           </div>
@@ -204,8 +202,7 @@ export default function AIUsagePage() {
           <div className="workflow-step">
             <h3 className="step-title">Bước 3: Kiểm tra và Hoàn thiện</h3>
             <p>
-              <strong>Nhóm chịu trách nhiệm:</strong> Kiểm duyệt toàn bộ thông
-              tin lịch sử, đánh giá chất lượng website, chỉnh sửa và hoàn thiện
+              <strong>Nhóm chịu trách nhiệm:</strong> Kiểm duyệt toàn bộ nội dung và đánh giá chất lượng website, chỉnh sửa và hoàn thiện
               sản phẩm cuối cùng.
             </p>
           </div>
@@ -234,7 +231,7 @@ export default function AIUsagePage() {
                   <strong>Kiểm duyệt thông tin</strong>
                 </td>
                 <td>
-                  Xác minh tính chính xác của mọi thông tin lịch sử do AI tạo ra
+                  Xác minh tính chính xác và chọn lọc mọi thông tin do AI tóm tắt và research
                 </td>
               </tr>
               <tr>
@@ -281,8 +278,7 @@ export default function AIUsagePage() {
                 chóng
               </li>
               <li>
-                <strong>Chatbox thông minh:</strong> Người dùng có thể hỏi đáp
-                về lịch sử
+                <strong>Chatbox thông minh:</strong> Người dùng có thể hỏi xoáy, đáp xoay về nội dung bài học
               </li>
             </ul>
           </div>

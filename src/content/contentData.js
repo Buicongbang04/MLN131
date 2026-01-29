@@ -1354,94 +1354,94 @@ const contentData = {
     note: "Mỗi placeholder cần tìm hình ảnh phù hợp với ngữ cảnh lịch sử và nội dung miêu tả",
   },
 
-  study_guide: {
-    key_questions: [
-      {
-        question:
-          "Tại sao Đảng phải thực hiện đồng thời hai chiến lược cách mạng ở hai miền sau 1954?",
-        answer_points: [
-          "Đất nước bị chia cắt thành hai miền với hai chế độ chính trị khác nhau",
-          "Miền Bắc được giải phóng hoàn toàn, cần xây dựng CNXH",
-          "Miền Nam còn dưới ách thống trị của Mỹ-Diệm, cần tiếp tục cách mạng DTDN",
-          "Hai nhiệm vụ có mối quan hệ biện chứng, hỗ trợ lẫn nhau",
-        ],
-        clo: "CLO2",
-      },
-      {
-        question:
-          "Phân tích vai trò của Nghị quyết 15 (1/1959) đối với cách mạng miền Nam?",
-        answer_points: [
-          "Xác định con đường phát triển cơ bản: khởi nghĩa giành chính quyền",
-          "Chuyển sang sử dụng bạo lực cách mạng kết hợp chính trị và vũ trang",
-          "Giải thoát cách mạng miền Nam khỏi thế bị động, hiểm nghèo",
-          "Là cơ sở cho phong trào Đồng Khởi và các chiến thắng sau này",
-        ],
-        clo: "CLO2",
-      },
-      {
-        question:
-          "Ý nghĩa chiến lược của Đường Hồ Chí Minh đối với cuộc kháng chiến chống Mỹ?",
-        answer_points: [
-          "Là tuyến vận tải huyết mạch nối hậu phương và tiền tuyến",
-          "Bảo đảm 80% bộ đội chủ lực và 70% vũ khí cho chiến trường miền Nam",
-          "Thể hiện trí tuệ và sức mạnh của chiến tranh nhân dân",
-          "Vượt qua 3 triệu tấn bom đạn của Mỹ để duy trì hoạt động",
-        ],
-        clo: "CLO2",
-      },
-      {
-        question:
-          "Tổng tiến công Tết Mậu Thân 1968 có ý nghĩa gì? Bài học kinh nghiệm rút ra?",
-        answer_points: [
-          "Ý nghĩa: Đánh bại ý chí xâm lược của Mỹ, buộc Mỹ ngồi vào bàn đàm phán",
-          "Chuyển cuộc chiến sang thế chủ động về chính trị-ngoại giao",
-          "Bài học: Cần tự phê bình khi có sai lầm",
-          "Không nên tiếp tục tấn công khi yếu tố bất ngờ đã mất (đợt 2, 3)",
-        ],
-        clo: "CLO2",
-      },
-      {
-        question:
-          "Phân tích nghệ thuật 'chớp thời cơ' của Đảng trong chiến dịch Mùa Xuân 1975?",
-        answer_points: [
-          "Chiến thắng Phước Long (1/1975) như đòn thăm dò chiến lược",
-          "Nhận định đúng: Ngụy quân suy yếu, Mỹ không can thiệp được",
-          "Quyết tâm linh hoạt: Kế hoạch 2 năm nhưng sẵn sàng giải phóng ngay năm 1975",
-          "Thần tốc, táo bạo: 55 ngày giải phóng hoàn toàn miền Nam",
-        ],
-        clo: "CLO2",
-      },
-      {
-        question:
-          "Tại sao nói sự lãnh đạo của Đảng là nguyên nhân hàng đầu quyết định thắng lợi?",
-        answer_points: [
-          "Đường lối chiến lược đúng đắn, độc lập, tự chủ, sáng tạo",
-          "Kết hợp linh hoạt các hình thức đấu tranh (chính trị, quân sự, ngoại giao)",
-          "Biết chớp thời cơ và điều chỉnh chiến lược kịp thời",
-          "Xây dựng và phát huy sức mạnh đại đoàn kết dân tộc",
-        ],
-        clo: "CLO4",
-      },
-      {
-        question:
-          "Bài học 'Độc lập dân tộc gắn liền với CNXH' có ý nghĩa gì đối với thế hệ trẻ hiện nay?",
-        answer_points: [
-          "Khẳng định con đường đúng đắn mà Đảng và Bác Hồ đã chọn",
-          "Củng cố niềm tin vào sự lãnh đạo của Đảng",
-          "Noi gương truyền thống kiên cường, sáng tạo của các thế hệ trước",
-          "Tiếp tục phấn đấu xây dựng và bảo vệ Tổ quốc XHCN",
-        ],
-        clo: "CLO4",
-      },
-    ],
-    exam_preparation_tips: [
-      "Nắm vững các mốc thời gian quan trọng: 1954, 1959, 1960, 1968, 1973, 1975",
-      "Hiểu rõ vai trò và mối quan hệ giữa hai chiến lược cách mạng ở hai miền",
-      "Phân biệt các chiến lược của Mỹ: Chiến tranh Đặc biệt, Chiến tranh Cục bộ, Việt Nam hóa",
-      "Nắm vững các chiến thắng quan trọng và ý nghĩa của từng chiến thắng",
-      "Hiểu sâu các bài học kinh nghiệm và biết vận dụng vào thực tiễn hiện nay",
-    ],
-  },
+  // study_guide: {
+  //   key_questions: [
+  //     {
+  //       question:
+  //         "Tại sao Đảng phải thực hiện đồng thời hai chiến lược cách mạng ở hai miền sau 1954?",
+  //       answer_points: [
+  //         "Đất nước bị chia cắt thành hai miền với hai chế độ chính trị khác nhau",
+  //         "Miền Bắc được giải phóng hoàn toàn, cần xây dựng CNXH",
+  //         "Miền Nam còn dưới ách thống trị của Mỹ-Diệm, cần tiếp tục cách mạng DTDN",
+  //         "Hai nhiệm vụ có mối quan hệ biện chứng, hỗ trợ lẫn nhau",
+  //       ],
+  //       clo: "CLO2",
+  //     },
+  //     {
+  //       question:
+  //         "Phân tích vai trò của Nghị quyết 15 (1/1959) đối với cách mạng miền Nam?",
+  //       answer_points: [
+  //         "Xác định con đường phát triển cơ bản: khởi nghĩa giành chính quyền",
+  //         "Chuyển sang sử dụng bạo lực cách mạng kết hợp chính trị và vũ trang",
+  //         "Giải thoát cách mạng miền Nam khỏi thế bị động, hiểm nghèo",
+  //         "Là cơ sở cho phong trào Đồng Khởi và các chiến thắng sau này",
+  //       ],
+  //       clo: "CLO2",
+  //     },
+  //     {
+  //       question:
+  //         "Ý nghĩa chiến lược của Đường Hồ Chí Minh đối với cuộc kháng chiến chống Mỹ?",
+  //       answer_points: [
+  //         "Là tuyến vận tải huyết mạch nối hậu phương và tiền tuyến",
+  //         "Bảo đảm 80% bộ đội chủ lực và 70% vũ khí cho chiến trường miền Nam",
+  //         "Thể hiện trí tuệ và sức mạnh của chiến tranh nhân dân",
+  //         "Vượt qua 3 triệu tấn bom đạn của Mỹ để duy trì hoạt động",
+  //       ],
+  //       clo: "CLO2",
+  //     },
+  //     {
+  //       question:
+  //         "Tổng tiến công Tết Mậu Thân 1968 có ý nghĩa gì? Bài học kinh nghiệm rút ra?",
+  //       answer_points: [
+  //         "Ý nghĩa: Đánh bại ý chí xâm lược của Mỹ, buộc Mỹ ngồi vào bàn đàm phán",
+  //         "Chuyển cuộc chiến sang thế chủ động về chính trị-ngoại giao",
+  //         "Bài học: Cần tự phê bình khi có sai lầm",
+  //         "Không nên tiếp tục tấn công khi yếu tố bất ngờ đã mất (đợt 2, 3)",
+  //       ],
+  //       clo: "CLO2",
+  //     },
+  //     {
+  //       question:
+  //         "Phân tích nghệ thuật 'chớp thời cơ' của Đảng trong chiến dịch Mùa Xuân 1975?",
+  //       answer_points: [
+  //         "Chiến thắng Phước Long (1/1975) như đòn thăm dò chiến lược",
+  //         "Nhận định đúng: Ngụy quân suy yếu, Mỹ không can thiệp được",
+  //         "Quyết tâm linh hoạt: Kế hoạch 2 năm nhưng sẵn sàng giải phóng ngay năm 1975",
+  //         "Thần tốc, táo bạo: 55 ngày giải phóng hoàn toàn miền Nam",
+  //       ],
+  //       clo: "CLO2",
+  //     },
+  //     {
+  //       question:
+  //         "Tại sao nói sự lãnh đạo của Đảng là nguyên nhân hàng đầu quyết định thắng lợi?",
+  //       answer_points: [
+  //         "Đường lối chiến lược đúng đắn, độc lập, tự chủ, sáng tạo",
+  //         "Kết hợp linh hoạt các hình thức đấu tranh (chính trị, quân sự, ngoại giao)",
+  //         "Biết chớp thời cơ và điều chỉnh chiến lược kịp thời",
+  //         "Xây dựng và phát huy sức mạnh đại đoàn kết dân tộc",
+  //       ],
+  //       clo: "CLO4",
+  //     },
+  //     {
+  //       question:
+  //         "Bài học 'Độc lập dân tộc gắn liền với CNXH' có ý nghĩa gì đối với thế hệ trẻ hiện nay?",
+  //       answer_points: [
+  //         "Khẳng định con đường đúng đắn mà Đảng và Bác Hồ đã chọn",
+  //         "Củng cố niềm tin vào sự lãnh đạo của Đảng",
+  //         "Noi gương truyền thống kiên cường, sáng tạo của các thế hệ trước",
+  //         "Tiếp tục phấn đấu xây dựng và bảo vệ Tổ quốc XHCN",
+  //       ],
+  //       clo: "CLO4",
+  //     },
+  //   ],
+  //   exam_preparation_tips: [
+  //     "Nắm vững các mốc thời gian quan trọng: 1954, 1959, 1960, 1968, 1973, 1975",
+  //     "Hiểu rõ vai trò và mối quan hệ giữa hai chiến lược cách mạng ở hai miền",
+  //     "Phân biệt các chiến lược của Mỹ: Chiến tranh Đặc biệt, Chiến tranh Cục bộ, Việt Nam hóa",
+  //     "Nắm vững các chiến thắng quan trọng và ý nghĩa của từng chiến thắng",
+  //     "Hiểu sâu các bài học kinh nghiệm và biết vận dụng vào thực tiễn hiện nay",
+  //   ],
+  // },
 
   additional_notes: {
     document_structure:
