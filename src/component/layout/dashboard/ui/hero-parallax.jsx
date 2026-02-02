@@ -93,7 +93,7 @@ export const Header = ({ headerContent }) => {
         )}
 
         <span className="block mb-2 text-[var(--museum-brown)] text-lg md:text-2xl">
-          Mốc thời gian quan trọng
+          Ở Việt Nam
         </span>
         <span className="text-[var(--lacquer-gold)]">Đại hội lần IV của Đảng</span>
         <span className="block mt-2">
